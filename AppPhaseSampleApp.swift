@@ -8,6 +8,7 @@
 import SwiftUI
 import RealityKit
 
+// This app is for App phase leaning.
 @main
 @MainActor
 struct AppPhaseSampleApp: App {
