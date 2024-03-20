@@ -12,7 +12,7 @@ extension AppState {
         phase.transition(to: .loadingAssets)
     }
     
-    public func finishedLoadingAssets() {
+    public func finishedLoadingModels() {
         phase.transition(to: .home)
     }
     

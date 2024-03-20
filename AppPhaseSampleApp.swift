@@ -36,7 +36,8 @@ struct AppPhaseSampleApp: App {
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
                 .environment(appState)
-        }.immersionStyle(selection: .constant(.full), in: .full)
+        }
+        .immersionStyle(selection: .constant(.full), in: .full)
     }
     
     init() {}
